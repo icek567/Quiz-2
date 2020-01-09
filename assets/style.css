@@ -1,0 +1,39 @@
+body {
+    margin: 10px;
+    background-image: url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg");
+    color: white;
+}
+
+button {
+    margin: 4px;
+}
+
+input {
+    margin: 4px;
+}
+
+#highscores {
+    width: 50%;
+    float: left;
+}
+
+#timer {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+#title {
+    font-size: 40px;
+    color: white;
+}
+
+#feedback {
+    text-align: center;
+}
+
+#begintest {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
