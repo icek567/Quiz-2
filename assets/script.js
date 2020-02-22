@@ -46,7 +46,7 @@ var questionArray = [
     },
     {
         title: "What is Spider-Man's Moral Quote?",
-        choices: ["Here I come", "For the Greater Good", "With great power comes great resposibility", "T be or not to be"],
+        choices: ["Here I come", "For the Greater Good", "With great power comes great resposibility", "To be or not to be"],
         answer: "With great power comes great resposibility"
     },
     {
