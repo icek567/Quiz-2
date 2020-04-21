@@ -6,6 +6,7 @@ Test your knowledge on all types of Superhero. From the Marvel universe to DC un
 Enter settings and once there activitate GitHub pages. Your website will become live with the necessary link needed.
 
 ## Deployment
+https://icek567.github.io/Superhero-Quiz/.
 
 ## Authors
 Sergio Perez
