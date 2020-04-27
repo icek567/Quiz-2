@@ -284,3 +284,4 @@ function renderHome() {
     beginButton.setAttribute("id", "button");
     testEl.appendChild(beginButton);
 }
+$('.dropdown-toggle').dropdown()
