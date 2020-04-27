@@ -136,6 +136,7 @@ function endTest() {
     var form = document.createElement("form");
     form.textContent = "Please enter your initials";
     testEl.appendChild(form);
+    testEl.setAttribute("style", "color: white");
 
     var initials = document.createElement("input");
     form.appendChild(initials);
@@ -220,6 +221,7 @@ function renderScores() {
     for (i of highScoresArray) {
         var newScore = document.createElement("div");
         newScore.textContent = i.initials + ":   " + i.score;
+        testEl.setAttribute("style", "color: white");
         testEl.appendChild(newScore);
     }
 

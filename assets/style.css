@@ -12,19 +12,21 @@ input {
 }
 
 #highscores {
-    float: left;
     box-sizing: border-box;
 }
-
-#timer {
-    text-align: right;
-    width: 50%;
-    float: right;
+#title {
+    font-size: 40px;
     color: white;
 }
 
-.box{
-    background-color: blueviolet;
+h2{
+    color: white;
+}
+
+#timer {
+    width: 15%;
+    float: right;
+    color: white;
 }
 
 #feedback {
