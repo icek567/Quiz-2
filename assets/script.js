@@ -15,11 +15,6 @@ if (localStorage.getItem("highscores") !== null) {
 //An array of cool questions
 var questionArray = [
     {
-        title: "Which hero is in Gotham City?",
-        choices: ["Superman", "Vitto", "Flash", "Batman"],
-        answer: "Batman"
-    },
-    {
         title: "Which hero is in Central City?",
         choices: ["Reverse Flash", "Iron Man", "Flash", "Russell"],
         answer: "Flash"
@@ -29,11 +24,7 @@ var questionArray = [
         choices: ["Bullets", "Kryptonite", "The Flu", "Coding"],
         answer: "Kryptonite"
     },
-    {
-        title: "What is Batman's superpower?",
-        choices: ["Driving", "Brooding", "Money", "Super Strength"],
-        answer: "Money"
-    },
+ 
     {
         title: "What Villain broke Batman?",
         choices: ["Bane", "Joker", "Scarecrow", "Javascript"],
@@ -44,11 +35,7 @@ var questionArray = [
         choices: ["Lex Luthor", "Doomsday", "Toy Man", "Yan"],
         answer: "Philip II"
     },
-    {
-        title: "What is Spider-Man's Moral Quote?",
-        choices: ["Here I come", "For the Greater Good", "With great power comes great resposibility", "To be or not to be"],
-        answer: "With great power comes great resposibility"
-    },
+
     {
         title: "What Newspaper company does Peter Parker work for?",
         choices: ["WallSreet Journal", "Chicago Tribune", "The New York Times", "The Daily Bugle"],
@@ -64,25 +51,11 @@ var questionArray = [
         choices: ["Jean Grey", "Beast", "Wolverine", "Cyclops"],
         answer: "Wolverine"
     },
-    {
-        title: "Where is Wolverine from?",
-        choices: ["Canada", "Mexico", "United States", "Brazil"],
-        answer: "Canada"
-    },
+
     {
         title: "Which is the magic word used by Billt Batson to transform?",
         choices: ["Shazam", "Power Up", "Let's go", "Ready or not here I come"],
         answer: "Shazam"
-    },
-    {
-        title: "What is the name of the Wizard turned evil that fights Shazam?",
-        choices: ["The Rock", "Kratos", "Black Atom", "Hercules"],
-        answer: "Black Atom"
-    },
-    {
-        title: "Iron Man's alter ego?",
-        choices: ["Tony Stark", "Bruce Wayne", "Clark Kent", "Peter Parker"],
-        answer: "Tony Stark"
     },
     {
         title: "What is the name of Iron Man's sidekick?",
@@ -134,7 +107,7 @@ function render(x) {
     //Clear the test space
     testEl.innerHTML = "";
     //Create question
-    var question = document.createElement("div");
+    var question = document.createElement("h2");
     question.textContent = (questionArray[x].title);
     testEl.appendChild(question);
     //Create answer buttons
@@ -275,7 +248,7 @@ function renderHome() {
     testEl.appendChild(testTitle);
 
     var beginText = document.createElement("p");
-    beginText.textContent = "Press the button to begin!";
+    beginText.textContent = "Give it another try!";
     testEl.appendChild(beginText);
 
     var beginButton = document.createElement("button");
