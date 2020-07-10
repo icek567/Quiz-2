@@ -33,7 +33,7 @@ var questionArray = [
     {
         title: "What Villain was able to defeat Superman?",
         choices: ["Lex Luthor", "Doomsday", "Toy Man", "Yan"],
-        answer: "Philip II"
+        answer: "Doomsday"
     },
 
     {

@@ -1,6 +1,7 @@
 body {
     margin: 10px;
     background-image: url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg");
+    background-size: cover;
 }
 
 button {
@@ -37,4 +38,10 @@ h2{
     width: 50%;
     margin: auto;
     text-align: center;
+}
+
+.logo{
+    box-sizing: border-box;
+    border-radius: 50px;
+    float: right;
 }
